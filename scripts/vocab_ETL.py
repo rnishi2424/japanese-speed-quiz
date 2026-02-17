@@ -94,7 +94,7 @@ def chunked(iterable: list, size: int):
 # Database Insertion
 def get_connection():
     return psycopg2.connect(
-        dbname="jlpt",
+        dbname=os.getenv('DB_NAME'),
         user=os.getenv('DB_USER', 'localhost'),
         password=os.getenv('DB_PASSWORD'),
         host=os.getenv('DB_HOST'),

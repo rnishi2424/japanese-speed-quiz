@@ -9,6 +9,3 @@ async def read_root():
     return RedirectResponse(url="/docs")
 
 app.include_router(vocab.router)
-
-# run command if in api folder:
-# uvicorn main:app --reload
