@@ -1,4 +1,4 @@
--- Active: 1771369046242@@mainline.proxy.rlwy.net@29914@railway
+-- Active: 1774877581151@@db.xombjyhlkcccyiqaebsg.supabase.co@5432@postgres
 
 -- CREATE DATABASE jlpt;
 
