@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from models import Vocabulary
+from app.models import Vocabulary
 
 def get_random_vocab(db: Session):
     return db.query(Vocabulary).order_by(func.random()).first()
